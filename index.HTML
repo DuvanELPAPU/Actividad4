@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+
+    <link rel="Stylesheet" href="./Styles.css">
+    <title>proyecto</title>
+</head>
+<!------------------------------------------->
+
+<body>
+    <form class="portada"> 
+    <h3>Electiva Disciplinar I - Desarrollo De Aplicaciones Web I</h3>
+    <h3>Actividad 3 - Taller JavaScript/Jquery</h3>
+    <h3>Presentado Por: Duván Felipe Rincón Tapias</h3>
+    <h3>Presentado Para: Johan Gordillo</h3>
+    <h3>Corporación Universitaria Ibero Americana</h3>
+    <h3>Soacha, Cundinamarca</h3>
+    <h3>2022</h3>
+    <H1>Terraria </H1>
+    <p>
+        Terraria es un video juego de categoría sand-box, en estos juegos se crea un mundo de forma aleatoria con distintos biomas cada uno con características especiales, en este juego existen enemigos especiales también llamados “jefes”, a lo largo de esta página se enlistaran 3 jefes del modo normal se dará una breve descripción de estos se le asignara un número dependiendo del peligro que representa luchar contra ellos y una breve estrategia para derrotarlos.  
+    </p>
+    <H2>(Jefes)</H2>
+    </form>
+<!------------------------------------------->
+
+<div class="container">
+    <div class="listado-canciones">
+        <div class="cancion">
+            <div class="titulo">
+                Terraria Soundtrack: 01 - Overworld Day
+            </div>
+            <div class="play" id="MusicaTerra">
+                <span class="material-icons">
+                    play_circle
+                </span>
+            </div>
+            <div class="stop">
+                <span class="material-icons">
+                    cancel
+                </span>
+            </div>
+        </div>
+    </div>
+    <input type="range" max="1" min="0" step="0.001" class="volumen">
+    <div class="nm">
+        Sonido 
+    </div>
+</div>
+<script src="codigo.js"></script>
+<!--No hay que presionar el botón de reproducir más de una vez, 
+    porque la canción sonara varias veces de forma simultánea. -->
+<!------------------------------------------->
+    <form class="rey">
+        <h3>Rey Slime</h3>
+        <div class="r">
+            <img src="https://static.wikia.nocookie.net/terraria/images/9/93/King_Slime.gif/revision/latest?cb=20180716223903&path-prefix=es">
+        </div>
+        <h4>Vida: 2000 - Daño: 40 - Defensa: 10 - Nivel de amenaza: Basico</h4>
+        <p>
+            <b>Descripcion:</b> Este jefe puede aparecer en el mundo de terrario de dos formas invocándolo con una corona viscosa que se crea con lingotes de oro slime y un Ruby o durante el evento de lluvia de slimes luego de eliminar 100 slimes básicos.    
+        </p>
+        <p>
+            <b>Estrategia:</b> el rey slime ataca al jugador intentando saltar sobre el e invocando un gran número de slimes que atacaran a distancia disparando espinas, aparte de esto el jefe se puede teletransportar cerca del jugador si se aleja demasiado, se recomienda construir una plataforma de múltiples niveles y de gran anchura donde realizar el combate sea más sencillo, se recomiendan armas mucho daño por segunda para eliminar a la horda de slimes rápido y usar armadura de oro para no recibir micho daño.     
+        </p> 
+    </form>
+<!------------------------------------------->
+    <form class="brain"> 
+    <h3>Cerebro de Cthulhu</h3>
+    <div class="c">
+    <img src="https://static.wikia.nocookie.net/terraria/images/6/6a/Brain_of_Cthulhu.gif/revision/latest?cb=20200621052145&path-prefix=es">
+    </div>
+    <h4>Vida: 2700 - Daño: 30 - Defensa: 30 - Nivel de amenaza: Intermedio</h4>
+    <p>
+        <b>Descripcion:</b> Este jefe aparase únicamente en el bioma de carmesí al usar un invocador llamado “espina dorsal sangrienta” o al romper tres orbes en las profundidades del bioma.
+    </p>
+    <p>
+        <b>Estrategia:</b> Este jefe cuenta con 2 fases en su combate, en la primera fase embocara una horda de ojos que atacaran al jugador, liego de derrotar a todos los ojos el jefe entrara en segunda fase y arremeterá contra el jugador a gran velocidad y apareciendo cerca de el en múltiples ocasiones , se recomienda crear una plataforma en las profundidades del carmesí para esta pelea además de usar un gancho para tener mayor movilidad, la primera fase puede ser superada más fácil mente con un arma a distancia que dispare rápidamente, por otro lado en la segunda fase se recomienda un arma cuerpo a cuerpo con mucho retroceso.     
+    </p>
+</form>
+<!------------------------------------------->
+    <form class="boun">
+    <h3>Esqueletrón</h3>
+    <div class="b"> 
+    <img src="https://static.wikia.nocookie.net/terraria/images/e/ea/Skeletron.png/revision/latest?cb=20200603184852&path-prefix=es">
+    </div>
+    <h4>Vida: 5200 - Daño: 70 - Defensa: 10 - Nivel de amenaza: Intermedio</h4>
+    <p>
+        <b>Descripcion:</b> Aparece únicamente durante la noche en la mazmorra luego de hablar con un NPC.
+    </p>
+    <p>
+        <b>Estrategia:</b> Estrategia: Este jefe se compone de tres parte la cabeza y dos manos, todas son capases de causar daño al jugador si lo tocan, se recomienda construir una plataforma de múltiples niveles y de gran anchura donde realizar el combate sea más sencillo, se recomienda usar botas cohete para poder esquivar sus ataques más fácilmente, el combate resulta más sencillo si se eliminan primero las manos, se recomienda llevar la armadura de tungsteno o superior y pociones que aumenten el daño infligido o la armadura.       
+    </p>
+</form>
+<!------------------------------------------->
+
+</body>
+</html>
